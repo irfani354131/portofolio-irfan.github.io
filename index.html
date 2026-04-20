@@ -1,448 +1,533 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <title>Portofolio | Irfani Fridana</title>
-  <meta name="description" content="Portofolio Irfani Fridana - Web Developer, Odoo Developer, dan Mobile Developer" />
-  <meta name="keywords" content="Irfani Fridana, Web Developer, Odoo Developer, Mobile Developer, Portfolio" />
+  <title>Irfani Fridana – Fullstack & ERP Developer</title>
+  <meta name="description" content="Irfani Fridana – Developer yang membangun solusi web, mobile, dan ERP yang berdampak nyata bagi bisnis." />
+  <meta name="keywords"    content="Irfani Fridana, Fullstack Developer, Odoo Developer, ERP Specialist, Flutter Developer, Web Developer" />
 
-  <!-- Favicons -->
-  <link rel="icon" href="assets/img/favicon.png" />
+  <link rel="icon"             href="assets/img/favicon.png" />
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet" />
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700|Poppins:300,400,500,600,700" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700,800|Poppins:300,400,500,600,700" rel="stylesheet" />
+
+  <!-- Vendor CSS -->
+  <link href="assets/vendor/aos/aos.css"                          rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css"     rel="stylesheet" />
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css"        rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css"     rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css"        rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
+  <!-- Main CSS -->
   <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
-  <!-- ======= Mobile nav toggle button ======= -->
+
+  <!-- Mobile nav toggle -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-  <!-- ======= Header ======= -->
+  <!-- ======= Sidebar ======= -->
   <header id="header">
     <div class="d-flex flex-column">
-      <div class="profile text-center">
-        <img src="assets/img/irfan-profile.png" alt="Profile" class="img-fluid rounded-circle" />
-        <h1 class="text-light">
-          <a href="index.html">Irfani Fridana Rahmansyah Putra</a> 
-        </h1>
-        <div class="social-links mt-3">
-          <a href="https://instagram.com/irfani_frd" class="instagram" target="_blank" rel="noopener"><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/irfani354131" class="github" target="_blank" rel="noopener"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/irfani-f-b88ba1254" class="linkedin" target="_blank" rel="noopener"><i class="bx bxl-linkedin"></i></a>
+
+      <div class="profile">
+        <div class="profile-img-wrap">
+          <img src="assets/img/irfan-profile.png" alt="Irfani Fridana" />
         </div>
+        <h1><a href="index.html">Irfani Fridana Rahmansyah Putra</a></h1>
+        <div class="social-links">
+          <a href="https://instagram.com/irfani_frd"                   target="_blank" rel="noopener" title="Instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/irfani354131"                    target="_blank" rel="noopener" title="GitHub"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/irfani-f-b88ba1254"    target="_blank" rel="noopener" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="#hero"      class="nav-link scrollto active"><i class="bx bx-home"></i>         <span>Home</span></a></li>
+          <li><a href="#about"     class="nav-link scrollto">       <i class="bx bx-user"></i>         <span>About</span></a></li>
+          <li><a href="#skills"    class="nav-link scrollto">       <i class="bx bx-code-alt"></i>     <span>Skills</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto">       <i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#contact"   class="nav-link scrollto">       <i class="bx bx-envelope"></i>     <span>Contact</span></a></li>
         </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
+      </nav>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1 style="color: white;">Irfani Fridana R P</h1>
-      <p>I'm <span class="typed" data-typed-items="Fullstack Web Developer, Odoo Developer, Mobile Developer"></span></p>
     </div>
-  </section><!-- End Hero -->
+  </header>
+
+  <!-- ======= Hero ======= -->
+  <section id="hero">
+    <div class="hero-bg-img"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+
+    <div class="hero-container" data-aos="fade-up" data-aos-duration="1000">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span> Open to Opportunities
+      </div>
+      <h1>Irfani Fridana R P</h1>
+      <p class="hero-typed-line">I craft <span class="typed" data-typed-items="Fullstack Web Applications,Odoo ERP Systems,Mobile Apps with Flutter,Scalable Digital Solutions"></span></p>
+      <p class="hero-sub">Code yang bukan sekadar berjalan — tapi berdampak.</p>
+      <div class="hero-cta">
+        <a href="#portfolio" class="btn-hero scrollto">Lihat Karya Saya <i class="bi bi-arrow-right"></i></a>
+        <a href="#contact"   class="btn-hero-ghost scrollto">Hubungi Saya</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>scroll</span>
+      <i class="bi bi-chevron-down"></i>
+    </div>
+  </section>
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
+    <!-- ======= About ======= -->
     <section id="about" class="about">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title" data-aos="fade-up">
+          <div class="title-line"></div>
           <h2>Tentang Saya</h2>
-          <p style="text-align: justify;">
-           Saya adalah seorang Web Developer dan Mobile Developer dengan pengalaman lebih dari dua tahun dalam dunia pengembangan perangkat lunak. Sepanjang karier saya, saya telah membangun berbagai aplikasi berbasis web dan mobile yang mendukung kebutuhan bisnis di berbagai sektor.
-
-Keahlian saya mencakup pengembangan front-end dan back-end, pemodelan database, integrasi sistem, serta otomatisasi proses bisnis. Saya juga memiliki pengalaman dalam mengembangkan solusi ERP, termasuk menyesuaikan platform seperti Odoo sesuai kebutuhan klien.
-
-Saya terbiasa bekerja dalam tim lintas fungsi dan selalu berfokus pada hasil, dengan pendekatan yang mengedepankan efisiensi, skalabilitas, dan kualitas dalam setiap proyek yang saya kerjakan. Dengan semangat belajar yang tinggi dan komitmen terhadap inovasi, saya siap membantu perusahaan mencapai transformasi digital yang optimal.
-          </p>
+          <p>Lebih dari sekadar developer — saya adalah problem solver yang suka mengubah kompleksitas menjadi solusi elegan.</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/irfan.jpg" class="img-fluid" alt="" style="width: 290px; height: auto;">
+        <div class="row align-items-center g-5">
+
+          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+            <div class="profile-card text-center">
+              <div class="profile-img-outer">
+                <img src="assets/img/irfan.jpg" alt="Irfani Fridana" />
+              </div>
+              <div class="role-badges">
+                <span class="role-badge">Web Dev</span>
+                <span class="role-badge">Mobile Dev</span>
+                <span class="role-badge">ERP Dev</span>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>IT Developer</h3>
-            <p>
-              <b>Data Diri :</b>
+
+          <div class="col-lg-8 content" data-aos="fade-left" data-aos-delay="150">
+            <h3>Fullstack &amp; ERP Developer</h3>
+            <p class="sub-role">&#47;&#47; Web &middot; Mobile &middot; Odoo &middot; Flutter</p>
+
+            <p class="bio">
+              Saya percaya bahwa <em>great software</em> lahir dari perpaduan logika yang tajam dan
+              empati terhadap pengguna. Dengan 2+ tahun terjun langsung di industri, saya telah
+              membangun puluhan solusi digital — dari e-commerce, sistem pelaporan pemerintah,
+              aplikasi koperasi, hingga custom ERP berbasis Odoo untuk perusahaan skala menengah.
             </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Tanggal Lahir :</strong> <span>2 Oktober 1998</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>irfani.fridana354@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>No.Hp:</strong> <span>089504087405</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Domisili:</strong> <span>Buduran, Sidoarjo</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Umur:</strong> <span id="umur"></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Pendidikan:</strong> <span>Diploma (D3)</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Jurusan:</strong> <span>Manajemen Informatika</span></li>
-                </ul>
+            <p class="bio">
+              Setiap baris kode yang saya tulis punya satu tujuan: <strong>membuat hidup penggunanya lebih mudah</strong>.
+            </p>
+
+            <div class="info-grid">
+              <div class="info-row">
+                <i class="bi bi-calendar3"></i>
+                <div>
+                  <strong>Tanggal Lahir</strong>
+                  <span>2 Oktober 1998</span>
+                </div>
               </div>
-              <div class="col-lg-6">
-                <ul>
-                
-                </ul>
+              <div class="info-row">
+                <i class="bi bi-person-badge"></i>
+                <div>
+                  <strong>Umur</strong>
+                  <span id="umur"></span>
+                </div>
+              </div>
+              <div class="info-row">
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                  <strong>Domisili</strong>
+                  <span>Buduran, Sidoarjo</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <i class="bi bi-mortarboard"></i>
+                <div>
+                  <strong>Pendidikan</strong>
+                  <span>D3 Manajemen Informatika</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <i class="bi bi-envelope"></i>
+                <div>
+                  <strong>Email</strong>
+                  <span>irfani.fridana354@gmail.com</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <i class="bi bi-telephone"></i>
+                <div>
+                  <strong>No. HP</strong>
+                  <span>089504087405</span>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-      </div>
-    </section><!-- End About Section -->
-        
-
-    <!-- ======= Skills Section ======= -->
-   <section id="skills" class="skills section-bg" style="background: #f9f9f9; padding: 60px 0;">
-  <div class="container">
-
-    <div class="section-title" style="text-align:center; margin-bottom: 40px;">
-      <h2 style="font-weight: bold;">Keahlian</h2>
-      <p style="color: #555;">Dibawah ini adalah presentase pemahaman terkait beberapa keahlian yang saya miliki saat ini.</p>
-    </div>
-
-    <div class="row skills-content">
-
-      <div class="col-lg-6">
-
-        <div class="progress">
-          <span class="skill"><i class="fab fa-html5"></i> HTML <i class="val">90%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" style="width: 90%;"></div>
-          </div>
-        </div>
-
-        <div class="progress">
-          <span class="skill"><i class="fab fa-php"></i> PHP <i class="val">80%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" style="width: 80%;"></div>
-          </div>
-        </div>
-
-        <div class="progress">
-          <span class="skill"><i class="fab fa-python"></i> Python <i class="val">90%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" style="width: 90%;"></div>
-          </div>
-        </div>
-
-        <div class="progress">
-          <span class="skill"><i class="fab fa-js"></i> JavaScript <i class="val">60%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" style="width: 60%;"></div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="col-lg-6">
-
-        <div class="progress">
-          <span class="skill"><i class="fas fa-code"></i> CI, Laravel, Vue, React, Odoo <i class="val">80%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" style="width: 80%;"></div>
-          </div>
-        </div>
-
-        <div class="progress">
-          <span class="skill"><i class="fas fa-mobile-alt"></i> Mobile Dev (Flutter) <i class="val">70%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" style="width: 70%;"></div>
-          </div>
-        </div>
-
-        <div class="progress">
-          <span class="skill"><i class="fas fa-database"></i> MySQL & PostgreSQL <i class="val">80%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" style="width: 80%;"></div>
-          </div>
-        </div>
-
-        <div class="progress">
-          <span class="skill"><i class="fas fa-file-word"></i> Microsoft Office <i class="val">80%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" style="width: 80%;"></div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </div>
-</section>
-
-    <!-- ======= Portfolio Section ======= -->
-<section id="portfolio" class="portfolio section-bg py-5">
-  <div class="container">
-
-    <div class="section-title text-center mb-5">
-      <h2>Portfolio</h2>
-      <p>Dibawah ini adalah beberapa website yang saya buat dan kembangkan sampai saat ini.</p>
-    </div>
-
-    <div class="row portfolio-container justify-content-center">
-
-      <!-- Chaakra – Rekrutmen Pekerja -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-card">
-          <div class="portfolio-image">
-            <img src="assets/img/portfolio/choise1.png" alt="Chaakra Rekrutmen">
-          </div>
-          <div class="portfolio-info">
-            <h5>Chaakra – Rekrutmen</h5>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/choise2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://choise.chaakra-consulting.com/" target="_blank" title="Visit Site"><i class="bx bx-link"></i></a>
+            <div class="tech-stack" data-aos="fade-up" data-aos-delay="250">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">PHP</span>
+              <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">Flutter</span>
+              <span class="tech-chip">Odoo</span>
+              <span class="tech-chip">Laravel</span>
+              <span class="tech-chip">Vue.js</span>
+              <span class="tech-chip">PostgreSQL</span>
+              <span class="tech-chip">MySQL</span>
             </div>
           </div>
+
         </div>
       </div>
+    </section>
 
-      <!-- Chaakra – Survey (Pendapatkita) -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-card">
-          <div class="portfolio-image">
-            <img src="assets/img/portfolio/pendapat1.png" alt="Aplikasi Survey">
-          </div>
-          <div class="portfolio-info">
-            <h5>Pendapatkita – Survey</h5>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/pendapat2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://pendapatkitanew.chaakra-consulting.com/" target="_blank" title="Visit Site"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Chaakra – Penyimpanan Data Perusahaan -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-card">
-          <div class="portfolio-image">
-            <img src="assets/img/portfolio/drive1.png" alt="Penyimpanan Data">
-          </div>
-          <div class="portfolio-info">
-            <h5>Drive – Data Perusahaan</h5>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/drive2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://drive.chaakra-consulting.com/login" target="_blank" title="Visit Site"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Wadulguse – Pelaporan Masyarakat -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-card">
-          <div class="portfolio-image">
-            <img src="assets/img/portfolio/wadulguse1.png" alt="Laporan Masyarakat">
-          </div>
-          <div class="portfolio-info">
-            <h5>Wadulguse – Pelaporan</h5>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/wadulguse2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://wadulguse.gresikkab.go.id/" target="_blank" title="Visit Site"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Gotani Pertanian – Subsidi BBM -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-card">
-          <div class="portfolio-image">
-            <img src="assets/img/portfolio/pertanian1.png" alt="Subsidi BBM Pertanian">
-          </div>
-          <div class="portfolio-info">
-            <h5>Gotani – Subsidi BBM</h5>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/pertanian2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://testing-gotani-pertanian.gresikkab.go.id/" target="_blank" title="Visit Site"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Kop BJTI – Aplikasi Keuangan -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-card">
-          <div class="portfolio-image">
-            <img src="assets/img/portfolio/bjti1.png" alt="BJTI Finance">
-          </div>
-          <div class="portfolio-info">
-            <h5>BJTI – Aplikasi Keuangan</h5>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/bjti2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://kopbjti.online/" target="_blank" title="Visit Site"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Administrasi – Aplikasi Administrasi -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-card">
-          <div class="portfolio-image">
-            <img src="assets/img/portfolio/administrasi.png" alt="Administrasi">
-          </div>
-          <div class="portfolio-info">
-            <h5>Administrasi – Small ERP</h5>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/administrasi1.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://trialpo.tukuklik.com/signin/" target="_blank" title="Visit Site"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Catalog Interior – Website CI -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-card">
-          <div class="portfolio-image">
-            <img src="assets/img/portfolio/catalog.png" alt="Catalog Interior">
-          </div>
-          <div class="portfolio-info">
-            <h5>Catalog Interior – Portofolio</h5>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/catalog2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://catalog.kinayainterior.com/" target="_blank" title="Visit Site"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tukuklik – E-Commerce (Laravel + Next.js) -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-card">
-          <div class="portfolio-image">
-            <img src="assets/img/portfolio/tukuklik1.png" alt="Tukuklik E-Commerce">
-          </div>
-          <div class="portfolio-info">
-            <h5>Tukuklik – E-Commerce</h5>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/tukuklik2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://tukuklik.com/" target="_blank" title="Visit Site"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tibatibaada – E-Commerce -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-card">
-          <div class="portfolio-image">
-            <img src="assets/img/portfolio/tibatibaada.png" alt="Tibatibaada">
-          </div>
-          <div class="portfolio-info">
-            <h5>Tibatibaada – Agency</h5>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/tibatibaada.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://tibatibaada.id/" target="_blank" title="Visit Site"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Odoo E-Commerce -->
-      <div class="col-lg-4 col-md-6 portfolio-item">
-        <div class="portfolio-card">
-          <div class="portfolio-image">
-            <img src="assets/img/portfolio/odoo.png" alt="Odoo E-Commerce">
-          </div>
-          <div class="portfolio-info">
-            <h5>Odoo – ERP  </h5>
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/odoo.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-              <a href="https://odoo.mazuta.id/" target="_blank" title="Visit Site"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section><!-- End Portfolio Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- ======= Skills ======= -->
+    <section id="skills" class="skills section-bg">
       <div class="container">
 
-        <div class="section-title">
-          <h2>Kontak</h2>
+        <div class="section-title" data-aos="fade-up">
+          <div class="title-line"></div>
+          <h2>Keahlian</h2>
+          <p>Senjata-senjata yang saya gunakan setiap hari untuk membangun solusi terbaik.</p>
         </div>
 
-        <div class="row" data-aos="fade-in">
+        <div class="row skills-content g-4">
 
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Domisili</h4>
-                <p>Buduran, Sidoarjo</p>
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <div class="skill-card">
+
+              <div class="progress">
+                <span class="skill"><span><i class="fab fa-html5"></i> HTML / CSS</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
               </div>
 
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email</h4>
-                <p><a>irfani.fridana354@gmail.com</a></p>
+              <div class="progress">
+                <span class="skill"><span><i class="fab fa-php"></i> PHP</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
               </div>
 
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>No HP</h4>
-                <p><a href="https://wa.me/6289504087405">+62 89504087405</a></p>
+              <div class="progress">
+                <span class="skill"><span><i class="fab fa-python"></i> Python</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
               </div>
-             
+
+              <div class="progress">
+                <span class="skill"><span><i class="fab fa-js"></i> JavaScript</span> <i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
             </div>
-
           </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106464.61313672648!2d112.66893413165576!3d-7.408125354374565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e660c36e6493%3A0x4027a76e3531d00!2sKec.%20Buduran%2C%20Kabupaten%20Sidoarjo%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1751965867676!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="skill-card">
+
+              <div class="progress">
+                <span class="skill"><span><i class="fas fa-code"></i> CI / Laravel / Vue / React / Odoo</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span><i class="fas fa-mobile-alt"></i> Mobile Dev (Flutter)</span> <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span><i class="fas fa-database"></i> MySQL &amp; PostgreSQL</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span><i class="fas fa-file-word"></i> Microsoft Office</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
 
         </div>
-
       </div>
-    </section><!-- End Contact Section -->
+    </section>
 
-  </main><!-- End #main -->
+    <!-- ======= Portfolio ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title text-center" data-aos="fade-up">
+          <div class="title-line mx-auto"></div>
+          <h2>Portfolio</h2>
+          <p>Setiap proyek adalah cerita. Ini adalah beberapa <em>chapter</em> terbaik yang pernah saya tulis.</p>
+        </div>
+
+        <div class="row portfolio-container g-0">
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="50">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/choise1.png" alt="Chaakra Rekrutmen" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h5>Chaakra – Rekrutmen</h5>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/choise2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-search"></i></a>
+                  <a href="https://choise.chaakra-consulting.com/" target="_blank" rel="noopener" title="Visit"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/pendapat1.png" alt="Pendapatkita Survey" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h5>Pendapatkita – Survey</h5>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/pendapat2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-search"></i></a>
+                  <a href="https://pendapatkitanew.chaakra-consulting.com/" target="_blank" rel="noopener" title="Visit"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="150">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/drive1.png" alt="Drive Data Perusahaan" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h5>Drive – Data Perusahaan</h5>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/drive2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-search"></i></a>
+                  <a href="https://drive.chaakra-consulting.com/login" target="_blank" rel="noopener" title="Visit"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="50">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/wadulguse1.png" alt="Wadulguse Pelaporan" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h5>Wadulguse – Pelaporan</h5>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/wadulguse2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-search"></i></a>
+                  <a href="https://wadulguse.gresikkab.go.id/" target="_blank" rel="noopener" title="Visit"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/pertanian1.png" alt="Gotani Subsidi BBM" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h5>Gotani – Subsidi BBM</h5>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/pertanian2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-search"></i></a>
+                  <a href="https://testing-gotani-pertanian.gresikkab.go.id/" target="_blank" rel="noopener" title="Visit"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="150">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/bjti1.png" alt="BJTI Keuangan" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h5>BJTI – Aplikasi Keuangan</h5>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/bjti2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-search"></i></a>
+                  <a href="https://kopbjti.online/" target="_blank" rel="noopener" title="Visit"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="50">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/administrasi.png" alt="Administrasi Small ERP" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h5>Administrasi – Small ERP</h5>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/administrasi1.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-search"></i></a>
+                  <a href="https://trialpo.tukuklik.com/signin/" target="_blank" rel="noopener" title="Visit"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/catalog.png" alt="Catalog Interior" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h5>Catalog Interior – Portofolio</h5>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/catalog2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-search"></i></a>
+                  <a href="https://catalog.kinayainterior.com/" target="_blank" rel="noopener" title="Visit"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="150">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/tukuklik1.png" alt="Tukuklik E-Commerce" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h5>Tukuklik – E-Commerce</h5>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/tukuklik2.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-search"></i></a>
+                  <a href="https://tukuklik.com/" target="_blank" rel="noopener" title="Visit"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="50">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/tibatibaada.png" alt="Tibatibaada Agency" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h5>Tibatibaada – Agency</h5>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/tibatibaada.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-search"></i></a>
+                  <a href="https://tibatibaada.id/" target="_blank" rel="noopener" title="Visit"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/odoo.png" alt="Odoo ERP Custom" loading="lazy" />
+              </div>
+              <div class="portfolio-info">
+                <h5>Odoo – ERP Custom</h5>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/odoo.png" class="portfolio-lightbox" title="Preview"><i class="bx bx-search"></i></a>
+                  <a href="https://odoo.mazuta.id/" target="_blank" rel="noopener" title="Visit"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Contact ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <div class="title-line"></div>
+          <h2>Kontak</h2>
+          <p>Punya ide brilian atau butuh solusi digital? Mari kita wujudkan bersama — saya siap mendengar.</p>
+        </div>
+
+        <div class="row g-4" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-5 d-flex">
+            <div class="info w-100">
+
+              <div class="contact-tagline">
+                <p>Respon cepat, komunikasi terbuka, dan hasil terbaik — itu janji saya di setiap kolaborasi.</p>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-wrap"><i class="bi bi-geo-alt"></i></div>
+                <div class="text">
+                  <h4>Lokasi</h4>
+                  <p>Buduran, Sidoarjo, Jawa Timur</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-wrap"><i class="bi bi-envelope"></i></div>
+                <div class="text">
+                  <h4>Kirim Email</h4>
+                  <p><a href="mailto:irfani.fridana354@gmail.com">irfani.fridana354@gmail.com</a></p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-wrap"><i class="bi bi-whatsapp"></i></div>
+                <div class="text">
+                  <h4>Chat via WhatsApp</h4>
+                  <p><a href="https://wa.me/6289504087405" target="_blank" rel="noopener">+62 895-0408-7405</a></p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-7 d-flex">
+            <div class="map-responsive w-100">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106464.61313672648!2d112.66893413165576!3d-7.408125354374565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e660c36e6493%3A0x4027a76e3531d00!2sKec.%20Buduran%2C%20Kabupaten%20Sidoarjo%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1751965867676!5m2!1sid!2sid"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <div class="credits">
-        Designed by <a href="index.html">Irfani Fridana</a>
-      </div>
+      <div class="credits">Built with passion by <a href="index.html">Irfani Fridana</a></div>
     </div>
-  </footer><!-- End  Footer -->
+  </footer>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
 
-  <!-- Vendor JS Files -->
+  <!-- Vendor JS -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -451,31 +536,20 @@ Saya terbiasa bekerja dalam tim lintas fungsi dan selalu berfokus pada hasil, de
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-
-
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-<script>
-  // Set tanggal lahir (tahun, bulan [0-11], tanggal)
-  const tanggalLahir = new Date(1998, 9, 2); // Oktober = 9 (karena 0-based index)
-  const sekarang = new Date();
 
-  let umur = sekarang.getFullYear() - tanggalLahir.getFullYear();
-  const bulanSekarang = sekarang.getMonth();
-  const tanggalSekarang = sekarang.getDate();
-
-  // Jika belum ulang tahun tahun ini, kurangi 1
-  if (
-    bulanSekarang < tanggalLahir.getMonth() ||
-    (bulanSekarang === tanggalLahir.getMonth() && tanggalSekarang < tanggalLahir.getDate())
-  ) {
-    umur--;
-  }
-
-  // Tampilkan di elemen dengan id 'umur'
-  document.getElementById("umur").textContent = umur + " tahun";
-</script>
+  <script>
+    // Auto-hitung umur
+    (function () {
+      const dob = new Date(1998, 9, 2);
+      const now = new Date();
+      let age = now.getFullYear() - dob.getFullYear();
+      if (now.getMonth() < dob.getMonth() ||
+         (now.getMonth() === dob.getMonth() && now.getDate() < dob.getDate())) age--;
+      const el = document.getElementById('umur');
+      if (el) el.textContent = age + ' tahun';
+    })();
+  </script>
 
 </body>
-
 </html>

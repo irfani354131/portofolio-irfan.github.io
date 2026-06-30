@@ -18,12 +18,11 @@
     if (!screen) return ready();
     const logEl = $(".boot-log"), bar = $(".boot-bar i");
     const lines = [
-      "> initializing kernel <b>irfanOS v4.8</b> ...",
-      "> mounting /dev/skills ... <b>ok</b>",
-      "> loading neural assistant ... <b>ok</b>",
-      "> establishing network mesh ... <b>ok</b>",
-      "> compiling portfolio modules ... <b>ok</b>",
-      "> booting holographic interface ... <b>ready</b>",
+      "> initializing portfolio ...",
+      "> loading projects ... <b>ok</b>",
+      "> connecting modules ... <b>ok</b>",
+      "> optimizing assets ... <b>ok</b>",
+      "> rendering interface ... <b>ready</b>",
     ];
     let i = 0, prog = 0;
     const tick = () => {
@@ -352,7 +351,7 @@
   function runAssistant() {
     const bubble = $(".ai-bubble"), core = $(".ai-core"); if (!bubble) return;
     const msgs = [
-      "Halo 👋 Saya <b>NOVA</b>, asisten OS Irfani. Geser bola dunia di atas untuk berinteraksi.",
+      "Halo 👋 Saya <b>NOVA</b>, asisten portofolio Irfani. Geser bola dunia di atas untuk berinteraksi.",
       "Irfani membangun solusi <b>ERP & web enterprise</b> end-to-end.",
       "Pengalaman <b>2+ tahun</b> di web, mobile & otomasi proses bisnis.",
       "Lihat <b>11 proyek</b> live di bawah — semua sudah production.",
